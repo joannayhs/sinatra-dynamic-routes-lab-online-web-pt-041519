@@ -19,7 +19,7 @@ class App < Sinatra::Base
     answer = ''
     
     num.times do 
-      answer + phrase 
+      answer += phrase 
     end 
     
     answer
