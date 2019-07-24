@@ -19,6 +19,7 @@ class App < Sinatra::Base
    answer =  num.times do
               "#{phrase}"
               end 
-  end 
   answer
+  end 
+
 end
