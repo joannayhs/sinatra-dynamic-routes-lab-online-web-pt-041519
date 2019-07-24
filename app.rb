@@ -22,6 +22,7 @@ class App < Sinatra::Base
       answer + phrase 
     end 
     
+    answer
   end
 
 end
